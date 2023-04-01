@@ -51,7 +51,7 @@ I hope this will be helpful for your understanding of Docker. 😄
       + show all the containers you have on your local machine
     + `docker run --name [container_name] -d -p [host port]:[container port] image_name`
       + create a container based on a image ( `-d` → run it in background; `-p` → port binding)
-      + Notes: Every time you use `docker run`, it will create a container. So if you want to re-run the existed containers, use `docker start` instead
+      + 🍉 PS: Every time you use `docker run`, it will create a container. So if you want to re-run the existed containers, use `docker start` instead
     + `docker logs [container_id / name]`
       + logs about container
     + `docker stop [container id / name]`
