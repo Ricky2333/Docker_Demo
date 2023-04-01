@@ -39,7 +39,7 @@ I hope this will be helpful for your understanding of Docker. 😄
   + Container
   + Registry
 + **Basic Docker Command Line**
-  + Images
+  + Image
     + `docker build -t [image_name] [directory_of_dockerfile]` 
       + build dockerfile to image
     + `docker images` 
